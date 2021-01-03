@@ -30,7 +30,7 @@ Problems to Solve:
     - In case of frametime dependent Physics (so no FPS-Cap): Speed up the Physics engine itself (Probably extremly hard to do)
     
  Im trying to avoid binary modification as hard as possible since its hard and time consuming. 
- If someone knows how to speed up the game due to vanilla modding or run the simulation without Graphics please let me know :).
+ If someone knows how to speed up the game using vanilla modding or run the simulation without graphics please let me know :).
 
 To-Do:
 Almost Everything ^^
