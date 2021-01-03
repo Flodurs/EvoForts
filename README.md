@@ -28,6 +28,9 @@ Problems to Solve:
     - Massive Parallelization (like running maybe 50 Game instances at once) ->Probably Enourmus RAM use due to Graphics loading for each instance
     - In case of FPS-Cap of the game: Remove FPS-Cap. Since buildorder timing is framebound right now, timing is not a problem
     - In case of frametime dependent Physics (so no FPS-Cap): Speed up the Physics engine itself (Probably extremly hard to do)
+    
+ Im trying to avoid binary modification as hard as possible since its hard and time consuming. 
+ If someone knows how to speed up the game due to vanilla modding or run the simulation without Graphics please let me know :).
 
 To-Do:
 Almost Everything ^^
