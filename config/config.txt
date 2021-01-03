@@ -1,1 +1,6 @@
 gamepath = 
+scorefunc =
+activeOrderspath=
+archivedOrderspath=
+logpath=
+
