@@ -19,5 +19,17 @@ next Generation.
 
 The other ones are getting deleted/archived.
 
+First Goal: Get the System to  develop a Fort which can reach out as far as possible to the left (rightside Fort)
+
+Problems to Solve:
+  The biggest Problem for now is, that the Forts Graphics stuff, creates a ton of overhead which is useless and slows the process down.
+  One Game at standard speed is probably going to last 5-10 minutes which leads to insane learning time increase.
+  Possible Solutions:
+    -Massive Parallelization (like running maybe 50 Game instances at once) ->Probably Eenourmus RAM use due to Graphics loading for each instance
+    -In case of FPS-Cap of tghe game: Remove FPS-Cap. Since buildorder timing is framebound right now no timing problem
+    -In case of frametime dependent Physics (so no FPS-Cap): Speed up the Physics engine itself (Probably extremly hard to do)
+
+
+
 To-Do:
 Almost Everything ^^
