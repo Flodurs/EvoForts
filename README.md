@@ -31,6 +31,9 @@ Problems to Solve:
     
  Im trying to avoid binary modification as hard as possible since its hard and time consuming. 
  If someone knows how to speed up the game using vanilla modding or run the simulation without graphics please let me know :).
+ 
+ Im active in the official Forts modding Discord using the Nick "Flodur". You can pm me there if you want to contact me for (almost) any reason.
+ (Im intentionally not putting my Discord-Token here)
 
 To-Do:
 Almost Everything ^^
