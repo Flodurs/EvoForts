@@ -21,6 +21,8 @@ next Generation.
 The other ones are getting deleted/archived.
 
 First Goal: Get the System to  develop a Fort which can reach out as far as possible to the left (rightside Fort)
+  - Score Function is the distance of the node which is as far as possible to the left of the core.
+  
 
 Problems to Solve:
   - The biggest Problem for now is, that the Forts Graphics stuff, creates a ton of overhead which is useless and slows the process down.
