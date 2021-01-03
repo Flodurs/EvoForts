@@ -1,7 +1,7 @@
 # EvoForts
 Using ml/genAlgo to optimize build orders in the game Forts by Earthworkgames
 
-!WARNING!: This repo is NOT ready to compile/execute. You need a valid Forts Version to use this!
+- !WARNING!: This repo is NOT ready to compile/execute. You need a valid Forts Version to use this!
 
 Plan:
 A Python script (EvoForts.py) is creating random buildOrder Instruction files.
