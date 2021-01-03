@@ -2,6 +2,7 @@
 Using ml/genAlgo to optimize build orders in the game Forts by EarthWork Games.
 
 !WARNING!: This repo is NOT ready to compile/execute. You need a valid Forts Version to use this!
+There is no release planned yet. This thing is probably staying under construction for ever.
 
 Plan:
 A Python script (EvoForts.py) is creating random build order Instruction files.
