@@ -1,5 +1,5 @@
 # EvoForts
-Using ml/genAlgo to optimize build orders in the game Forts by Earthworkgames
+Using ml/genAlgo to optimize build orders in the game Forts by EarthWork Games.
 
 !WARNING!: This repo is NOT ready to compile/execute. You need a valid Forts Version to use this!
 
