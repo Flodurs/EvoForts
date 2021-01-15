@@ -1,4 +1,3 @@
-
 dofile("scripts/forts.lua")
 
 function Load(gameStart)
@@ -100,19 +99,25 @@ end
 
 --botId 0: left, 1: right
 
+--example: order = {"10", "cn", "273", "0.0", "-100.0", "bracing",
+--	"100", "bn", "274", "317", "armour"}
+
 
 function initEvo()
 	eip = 1 --instruction pointer
-	order = {"10", "cn", "273", "0.0", "-100.0", "bracing",
-	"100", "bn", "274", "317", "armour"}
+	
 	botId = 2
 	
 	
 	local colorB = Colour(0,0,255)
 	local colorR = Colour(255,0,0)
 	
-	--SpawnCircle(NodePosition(273), 50.0, colorB, 1000.0)
-	--SpawnCircle(Vec3(2000.0,-200.0), 50.0, colorR, 1000.0)
+--InsOrderStr
+	
+	
+	
+	
+	
 	
 	
 	
