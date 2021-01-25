@@ -58,13 +58,17 @@ class buildorder:
                 code = code[:-1]+"}"  #Not clean but easy
                         
         
-        print(code)
+        outFile = open("order_"+str(self.id)+".lua","w")
+        outFile.write(code)
+        outFile.close()
+        template.close()
         
-        
+#testcode 
+"""       
 b = buildorder(1)
 b.insertActionCreateLink("10","bracing","100","101")
 b.insertActionCreateLink("16","bracing","100","101")
 b.insertActionCreateLink("3","bracing","100","101")
 
 b.createLuaFile()
-
+"""
