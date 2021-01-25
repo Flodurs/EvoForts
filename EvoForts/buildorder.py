@@ -19,7 +19,7 @@ class buildorder:
         self.insertActionSorted([frame, "cn" ,material, nodeA, nodeB])
     
     def insertActionSorted(self, action):
-        index = 0
+        index = -1
         
         if len(self.mOrder) == 0:           #Check for empty Array
             self.mOrder.append(action)
@@ -29,16 +29,16 @@ class buildorder:
             self.mOrder.append(action)
             return
         """
-        #Theres probably a solution without break im just to lazy right now
-        #!!!!Doesnt work in all cases yet!!!!
+        #Probably works
         for i,order in enumerate(self.mOrder):
-             
-            
-            if int(action[0]) < int(order[0]):
-                index = i  
-                break                       
-             
-        self.mOrder.insert(index,action)
+
+            if (int(action[0]) < int(order[0])):
+                index = i 
+                self.mOrder.insert(index,action)
+                return
+        
+        self.mOrder.append(action) #In case of new biggest value
+        
       
 
 
@@ -52,17 +52,19 @@ class buildorder:
             if line == "--InsOrderStr\n":
                 code += "order = {"
                 for action in self.mOrder:
-                    code += "\n"    #Just for readability
+                    code += "\n"    #Just for readability | doesnt push the instructions all in a single line
                     for x in action:
                         code+="\"" + x + "\"" + ","
+                code = code[:-1]+"}"  #Not clean but easy
                         
         
-        #print(code)
+        print(code)
         
         
 b = buildorder(1)
 b.insertActionCreateLink("10","bracing","100","101")
 b.insertActionCreateLink("16","bracing","100","101")
 b.insertActionCreateLink("3","bracing","100","101")
-print(b.mOrder)
+
 b.createLuaFile()
+
